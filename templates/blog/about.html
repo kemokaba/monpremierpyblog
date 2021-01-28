@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% blocck title %} About {% endblock%}
+
+{%block content %}
+<div class="col-12">
+    <h1>Django Reinhardt</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-9">
+            <p class="lead">
+                Jean Reinhardt, plus connu sous le nom de Django Reinhardt, est un guitariste de jazz français né le 23 janvier 1910 à Liberchies — aujourd'hui une section de la commune de Pont-à-Celles — dans la région de Charleroi en Belgique et mort le 16 mai 1953 à Samois-sur-Seine
+            </p>
+            <p>
+                Issu d’une famille sinténote 1 et communément appelée en France « manouche », il est encore aujourd’hui un des guitaristes les plus respectés et influents de l’histoire du jazz. Grièvement blessé dans l'incendie de sa roulotte
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="{% static 'img/django.webp'%}" class="img-fluid">
+
+        </div>
+
+    </div>
+
+</div>
